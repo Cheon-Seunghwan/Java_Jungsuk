@@ -1,0 +1,21 @@
+class AAA{
+	int i = 100;
+}
+class BBB{
+	void method() {
+		AAA aaa = new AAA();
+		System.out.println(aaa.i);
+	}
+}
+class CCC{
+	
+}
+public class InnerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BBB bbb = new BBB();
+		bbb.method();
+	}
+
+}

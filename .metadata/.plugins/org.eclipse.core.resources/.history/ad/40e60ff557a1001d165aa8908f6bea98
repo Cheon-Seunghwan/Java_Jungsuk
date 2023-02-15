@@ -1,0 +1,39 @@
+
+public class Ex7_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FireEngine fe = new FireEngine();
+		
+		Car c = fe;
+		c.drive();
+		
+		FireEngine fe2 = (FireEngine) c;
+		
+		fe2.water();
+		
+		Car c2 = new FireEngine();
+		
+		c2.stop();
+	}
+
+}
+
+class Car {
+	String color;
+	int door;
+	
+	void drive() {
+		System.out.println("Drive!");
+	}
+	
+	void stop() {
+		System.out.println("Stop!");
+	}
+}
+
+class FireEngine extends Car{
+	void water() {
+		System.out.println("Water!");
+	}
+}

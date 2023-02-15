@@ -1,0 +1,16 @@
+class Time{
+	int hour;
+	int minute;
+	int second;
+	
+}
+public class TimeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Time t = new Time();
+		t.hour = 25;
+		System.out.println(t.hour);
+	}
+
+}
