@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Ex9_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//ctrl+shift+o
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(new Integer(100));
+		//원래는 객체만 추가할 수 있으나 컴파일러가 오토박싱 해준다.
+		list.add(100);
+	}
+
+}
